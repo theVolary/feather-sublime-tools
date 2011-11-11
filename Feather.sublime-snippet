@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[var ${1:fsm} = new feather.fsm.FiniteStateMachine({
+  states: {
+    initial: {
+      stateStartup: function() {
+        var fsm = this;
+        ${2}
+      }
+    }
+  } // end states
+});]]>
+</content>
+<tabTrigger>fsm</tabTrigger>
+<scope>source.js</scope>
+<description>Create a skeleton FSM inside a feather app.</description>
+</snippet>
+
+<!--
+<![CDATA[
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>-->
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
